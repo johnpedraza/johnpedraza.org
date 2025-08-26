@@ -1,1 +1,1 @@
-[johnpedraza.org](https://www.johnpedraza.org)
+[johnpedraza.org](johnpedraza.org)

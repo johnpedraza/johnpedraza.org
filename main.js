@@ -1,14 +1,7 @@
-const items = document.querySelectorAll("p");
-
-function toggleBig(e) {
-  if (!e.target.className) {
-    e.target.className = "big";
-  } else {
-    e.target.className = "";
-  }
+function increaseFontSize() {
+  txt = document.getElementById('a');
+  style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+  currentSize = parseFloat(style);
+  txt.style.fontSize = (currentSize + 10) + 'px';
 }
-
-items.forEach((item) => {
-  item.addEventListener("click", toggleBig);
-});
 

@@ -8,7 +8,7 @@ function toggleBig(e) {
   }
 }
 
-items.foreach((item) => {
+items.forEach((item) => {
   item.addEventListener("click", toggleBig);
 });
 

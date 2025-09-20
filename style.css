@@ -1,4 +1,12 @@
+h1 {
+  color: white;
+}
+
 p {
-  color: blueviolet;
+  color: violet;
+}
+
+body {
+  background-color: dimgray;
 }
 

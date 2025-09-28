@@ -6,8 +6,16 @@ p {
   color: violet;
 }
 
+.large {
+	font-size: 50px;
+}
+
 li {
 	color: lime;
+}
+
+a:link {
+	color: white;
 }
 
 a:visited {

@@ -6,6 +6,10 @@ p {
   color: violet;
 }
 
+li {
+	color: lime;
+}
+
 a:visited {
 	color: rgb(0 255 255);
 }

@@ -4,6 +4,7 @@ h1 {
 
 p {
   color: violet;
+  font-size: 20px;
 }
 
 .large {
@@ -12,6 +13,10 @@ p {
 
 li {
 	color: lime;
+}
+
+a {
+  font-size: 18px;
 }
 
 a:link {

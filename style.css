@@ -1,44 +1,44 @@
 h1 {
-  color: white;
+    color: white;
 }
 
 p {
-  color: violet;
-  font-size: 20px;
+    color: violet;
+    font-size: 20px;
 }
 
 .large {
-	font-size: 50px;
+    font-size: 50px;
 }
 
 li {
-	color: lime;
+    color: lime;
 }
 
 a {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 a:link {
-	color: white;
+    color: white;
 }
 
 a:visited {
-	color: rgb(0 255 255);
+    color: rgb(0 255 255);
 }
 
 button {
-	background-color: dimgray;
-  color: white;
-  padding: 5px 10px;
-  font-size: 16px;
+    background-color: dimgray;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
 }
 
 button:hover {
-	background-color: violet;
+    background-color: violet;
 }
 
 body {
-  background-color: rgb(50 50 50);
+    background-color: rgb(50 50 50);
 }
 

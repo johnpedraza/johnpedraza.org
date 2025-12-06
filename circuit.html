@@ -8,5 +8,18 @@
     <body>
         <a href="index.html">home</a>
         <p>circuit?</p>
+
+        <script>
+            function print_wasm() {
+                var result = Module.ccall(
+                    "printCircuit",
+                    null, 
+                    null,
+                    null
+                );
+                console.log(result);
+            }
+        </script>
+        <button onclick="print_wasm()">Print! (in console)</button>
     </body>
 </html>
